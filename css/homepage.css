@@ -1,0 +1,359 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+header {
+      width: 100%;
+      height: 100vh;
+      background: url('night sky2.jpg') no-repeat 50% 50%;
+      background-size: 100% 100%;
+}
+
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 42px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #ff6347;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 28px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+
+}
+
+#jumbotron{
+  color: white;
+  background-color: transparent;
+}
+
+#jumbocontainer{
+  margin-top: 18%;
+  text-align: -webkit-center;
+
+}
+
+#font{
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter
+}
+
+li{
+  list-style: none;
+  spacing:
+}
+
+ul{
+  padding-left: 0;
+}
+
+#profile{
+  width: 80%;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
+#profileinfo{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+#profilehead{
+
+  margin-top: 10%;
+  margin-left: 11%;
+  font-weight: 400;
+}
+
+#skillset{
+  margin-left: 1%;
+  text-align: left;
+  color: black;
+  font-weight:bold;
+}
+
+#professionalprofile{
+  width: 40%;
+  margin-left: 15%;
+}
+
+#resumehead{
+
+  margin-top: 10%;
+  margin-left: 11%;
+  font-weight: 400;
+}
+
+#resume{
+  width: 80%;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#degrees{
+  margin-left: 5%;
+  width: 40%
+  text-align: left;
+  color: black;
+}
+
+#degreespacing{
+  margin-bottom: 3%;
+}
+
+#schools{
+  margin-left: 5%;
+}
+#resumeinfo{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+hr{
+  margin:0;
+}
+
+#portfolio{
+  width: 100%;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: #048;
+  background: -webkit-linear-gradient(left top, #027, #48a);
+  background: -moz-linear-gradient(bottom right, #027, #48a);
+  background: linear-gradient(to bottom right, #027, #48a);
+}
+
+#portfoliohead{
+  margin-top: 2%;
+  margin-left: 11%;
+  font-weight: 400;
+}
+
+.row {
+	margin: 0;
+}
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.test_box {
+	padding: 0;
+}
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 10px;
+	overflow: hidden;
+}
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.test_box .inner .test_click:hover {
+	background-color: rgba(0,100,255,.5);
+	mix-blend-mode: hard-light;
+}
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 20px;
+	width: 100%;
+}
+.test_link {
+	border: 2px solid #fff;
+	display: inline-block;
+	font-size: .8em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+.box-01 .inner {
+	background-image: url('mycellar.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.box-02 .inner {
+	background-image: url('digitalnomads.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url('https://picsum.photos/1024/768?image=924');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url('https://picsum.photos/1024/768?image=1073');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-05 .inner {
+	background-image: url('https://picsum.photos/1024/768?image=1032');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-06 .inner {
+	background-image: url('https://picsum.photos/1024/768?image=1080');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
