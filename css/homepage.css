@@ -120,7 +120,7 @@ ul{
   display: flex;
   flex-direction: row;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top:;
   margin-right: 5%;
   justify-content: center;
 }
